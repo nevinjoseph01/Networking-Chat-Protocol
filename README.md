@@ -109,4 +109,5 @@ Firstly, both Client and Daemon use threads to manage simultaneous operations. S
 This project was a hands-on exploration of networking fundamentals, emphasizing the challenges and solutions in reliable UDP communication. Key learning points include:
 - Practical implementation of a three-way handshake and stop-and-wait protocol
 - Managing multithreaded socket programming
+- Ensuring message reliability and handling potential data loss in UDP communication
 
