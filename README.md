@@ -1,5 +1,5 @@
 # SIMP: Lightweight UDP-Based Messaging Protocol
-*by: Márió Palágyi, Nevin Joseph @ IMC Krems*
+*by: Márió Palágyi (@MarioP03), Nevin Joseph @ IMC Krems*
 
 **Overview of Contents**
 - Introduction and Structure
