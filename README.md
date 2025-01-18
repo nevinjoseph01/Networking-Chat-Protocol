@@ -65,7 +65,7 @@ Why this file is relevant is because:
 - manages the turn-based messaging protocol
 - ensures reliable messaging through the retransmission made possible by `send_with_stop_and_wait`
 - contains the threading logic (in `run` function), that is crucial for simulating a daemon in chat messaging applications.
-We also include the class "Datagram" from our file called "protocol.py" (we intentionally didn't name this "simp_protocol.py" so it doesn't look similar to other file names). The goal of this file will be more clear later, but the main focus is this module provides utilities for creating and parsing datagrams used in the communication. It contains the details of the payload creation, so the "simp_daemon.py" file doesn't get overcrowded, we could focus on creating functionality there.
+We also include the class "Datagram" from our file called "simp_protocol.py". The goal of this file will be more clear later, but the main focus is this module provides utilities for creating and parsing datagrams used in the communication. It contains the details of the payload creation, so the "simp_daemon.py" file doesn't get overcrowded, we could focus on creating functionality there.
 **File - simp_client.py**
 This file is another crucial element in the scope of this project as it simulates the client part of the messaging application, that probably stands the closest to the user, it's what they directly communicate with and also displays the incoming messages for them. This file accepts and "translates" the messages from the daemon, in order to create something that users can interact with and control the flow of the chat. 
 Its key functions are:
