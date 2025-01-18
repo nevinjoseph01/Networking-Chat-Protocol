@@ -7,7 +7,6 @@
 - Execution Guide
 - Description of Relevant Parts
 - Interaction of Modules
-- A guide on executing the project
 - Takeaways
 ---
 
