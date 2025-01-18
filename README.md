@@ -15,6 +15,7 @@
 This chapter introduces the SIMP Protocol, short for "Simple IMC Messaging Protocol", a simple chat messaging system that allows two users to communicate. The project’s goal was to create this protocol using UDP, which is chosen because it’s simpler and doesn’t require the connection setup that TCP does. While UDP is less secure, we ensured messages are not lost by implementing specific measures.
 
 Graphical general representation of how, on what IP address and what number do the different entities communicate inside our project.
+
 ![Image representation of SIMP Protocol](graphical_daemonsocket.jpg)
 
 ## 2. Libraries/Dependencies
